@@ -1,0 +1,173 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: system@localhost\n"
+"POT-Creation-Date: 2007-10-18 14:00+0100\n"
+"PO-Revision-Date: 2007-10-18 14:00+0100\n"
+"Last-Translator: system\n"
+"Language-Team: en <localhost>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Foydalanuvchi"
+msgstr "User"
+
+msgid "Foydalanuvchilar"
+msgstr "Users"
+
+msgid "Tashkilot"
+msgstr "Organization"
+
+msgid "Tashkilotlar"
+msgstr "Organizations"
+
+msgid "Nomi"
+msgstr "Name"
+
+msgid "Tuman/Shahar nomi"
+msgstr "District/City"
+
+msgid "Masalan: Angor tumani"
+msgstr "Example: Angor district"
+
+msgid "Direktor ism-sharifi"
+msgstr "Director Full Name"
+
+msgid "Masalan: B.Xolbutayev"
+msgstr "Example: B.Kholbutayev"
+
+msgid "Telefon raqami"
+msgstr "Phone Number"
+
+msgid "Manzil"
+msgstr "Address"
+
+msgid "Kafedra"
+msgstr "Department"
+
+msgid "Kafedralar"
+msgstr "Departments"
+
+msgid "Mudiri"
+msgstr "Head"
+
+msgid "Metod birlashma"
+msgstr "Methodological Unit"
+
+msgid "Metod birlashmalar"
+msgstr "Methodological Units"
+
+msgid "Rahbari"
+msgstr "Leader"
+
+msgid "Xodim Profili"
+msgstr "Employee Profile"
+
+msgid "Xodimlar Profillari"
+msgstr "Employee Profiles"
+
+msgid "Pasport raqami/JShSHIR"
+msgstr "Passport Number/PINFL"
+
+msgid "Oylik maosh (UZS)"
+msgstr "Monthly Salary (UZS)"
+
+msgid "Oylik maosh"
+msgstr "Monthly Salary"
+
+msgid "Shartnoma tugash sanasi"
+msgstr "Contract End Date"
+
+msgid "Malaka toifasi / Aniq vazifasi"
+msgstr "Qualification Category / Exact Position"
+
+msgid "Qiyofacha (Avatar)"
+msgstr "Avatar"
+
+msgid "Tarjimayi hol (Bio)"
+msgstr "Biography (Bio)"
+
+msgid "Sertifikatlar (JSON)"
+msgstr "Certificates (JSON)"
+
+msgid "Xodim faoliyati va shaxsiy tafsilotlari"
+msgstr "Employee Activity and Personal Details"
+
+msgid "Shaxsiy ma'lumotlar (Foydalanuvchi)"
+msgstr "Personal details (User)"
+
+msgid "Guruhlar va Ruxsatlar (Vazifasi)"
+msgstr "Groups and Permissions (Position)"
+
+msgid "Vazifasi (Guruhlar)"
+msgstr "Position (Groups)"
+
+msgid "KPI Indikatori"
+msgstr "KPI Indicator"
+
+msgid "KPI Indikatorlari"
+msgstr "KPI Indicators"
+
+msgid "Tavsif"
+msgstr "Description"
+
+msgid "Vazni"
+msgstr "Weight"
+
+msgid "Mezonlar"
+msgstr "Criteria"
+
+msgid "Ushbu indikator uchun beriladigan ball"
+msgstr "Points given for this indicator"
+
+msgid "Ushbu KPI ga erishish qoidalari"
+msgstr "Rules for reaching this KPI"
+
+msgid "KPI Yozuvi (Natijasi)"
+msgstr "KPI Record (Result)"
+
+msgid "KPI Yozuvlari (Natijalari)"
+msgstr "KPI Records (Results)"
+
+msgid "Indikator"
+msgstr "Indicator"
+
+msgid "Erishilgan sana"
+msgstr "Date Achieved"
+
+msgid "Olingan ball"
+msgstr "Score Obtained"
+
+msgid "Isbotlovchi hujjat"
+msgstr "Proof Document"
+
+msgid "Tasdiqlangan"
+msgstr "Verified"
+
+msgid "Sertifikat"
+msgstr "Certificate"
+
+msgid "Sertifikatlar"
+msgstr "Certificates"
+
+msgid "Ma'lumotnoma Tartib Raqami"
+msgstr "Certificate Sequence Number"
+
+msgid "Ma'lumotnoma Tartib Raqamlari"
+msgstr "Certificate Sequence Numbers"
+
+msgid "Yil (Masalan: 2026)"
+msgstr "Year (Example: 2026)"
+
+msgid "Yil"
+msgstr "Year"
+
+msgid "Oxirgi berilgan ma'lumotnoma raqami"
+msgstr "Last issued certificate number"
+
+msgid "Oxirgi raqam"
+msgstr "Last number"
+
+# Sick Leave

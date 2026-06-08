@@ -1,0 +1,175 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: system@localhost\n"
+"POT-Creation-Date: 2007-10-18 14:00+0100\n"
+"PO-Revision-Date: 2007-10-18 14:00+0100\n"
+"Last-Translator: system\n"
+"Language-Team: ru <localhost>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Foydalanuvchi"
+msgstr "Пользователь"
+
+msgid "Foydalanuvchilar"
+msgstr "Пользователи"
+
+msgid "Tashkilot"
+msgstr "Организация"
+
+msgid "Tashkilotlar"
+msgstr "Организации"
+
+msgid "Nomi"
+msgstr "Название"
+
+msgid "Tuman/Shahar nomi"
+msgstr "Район/Город"
+
+msgid "Masalan: Angor tumani"
+msgstr "Например: Ангорский район"
+
+msgid "Direktor ism-sharifi"
+msgstr "ФИО Директора"
+
+msgid "Masalan: B.Xolbutayev"
+msgstr "Например: Б.Холбутаев"
+
+msgid "Telefon raqami"
+msgstr "Номер телефона"
+
+msgid "Manzil"
+msgstr "Адрес"
+
+msgid "Kafedra"
+msgstr "Кафедра"
+
+msgid "Kafedralar"
+msgstr "Кафедры"
+
+msgid "Mudiri"
+msgstr "Заведующий"
+
+msgid "Metod birlashma"
+msgstr "Метод. объединение"
+
+msgid "Metod birlashmalar"
+msgstr "Метод. объединения"
+
+msgid "Rahbari"
+msgstr "Руководитель"
+
+msgid "Xodim Profili"
+msgstr "Профиль сотрудника"
+
+msgid "Xodimlar Profillari"
+msgstr "Профили сотрудников"
+
+msgid "Pasport raqami/JShSHIR"
+msgstr "Номер паспорта/ПИНФЛ"
+
+msgid "Oylik maosh (UZS)"
+msgstr "Месячная зарплата (UZS)"
+
+msgid "Oylik maosh"
+msgstr "Месячная зарплата"
+
+msgid "Shartnoma tugash sanasi"
+msgstr "Дата окончания контракта"
+
+msgid "Malaka toifasi / Aniq vazifasi"
+msgstr "Категория квалификации / Точная должность"
+
+msgid "Qiyofacha (Avatar)"
+msgstr "Аватар"
+
+msgid "Tarjimayi hol (Bio)"
+msgstr "Биография (Bio)"
+
+msgid "Sertifikatlar (JSON)"
+msgstr "Сертификаты (JSON)"
+
+msgid "Xodim faoliyati va shaxsiy tafsilotlari"
+msgstr "Деятельность сотрудника и личные данные"
+
+msgid "Shaxsiy ma'lumotlar (Foydalanuvchi)"
+msgstr "Личные данные (Пользователь)"
+
+msgid "Guruhlar va Ruxsatlar (Vazifasi)"
+msgstr "Группы и Разрешения (Должность)"
+
+msgid "Vazifasi (Guruhlar)"
+msgstr "Должность (Группы)"
+
+msgid "KPI Indikatori"
+msgstr "Индикатор KPI"
+
+msgid "KPI Indikatorlari"
+msgstr "Индикаторы KPI"
+
+msgid "Tavsif"
+msgstr "Описание"
+
+msgid "Vazni"
+msgstr "Вес"
+
+msgid "Mezonlar"
+msgstr "Критерии"
+
+msgid "Ushbu indikator uchun beriladigan ball"
+msgstr "Баллы за этот индикатор"
+
+msgid "Ushbu KPI ga erishish qoidalari"
+msgstr "Правила достижения этого KPI"
+
+msgid "KPI Yozuvi (Natijasi)"
+msgstr "Запись KPI (Результат)"
+
+msgid "KPI Yozuvlari (Natijalari)"
+msgstr "Записи KPI (Результаты)"
+
+msgid "Indikator"
+msgstr "Индикатор"
+
+msgid "Erishilgan sana"
+msgstr "Дата достижения"
+
+msgid "Olingan ball"
+msgstr "Полученный балл"
+
+msgid "Isbotlovchi hujjat"
+msgstr "Документ-подтверждение"
+
+msgid "Tasdiqlangan"
+msgstr "Подтверждено"
+
+msgid "Sertifikat"
+msgstr "Сертификат"
+
+msgid "Sertifikatlar"
+msgstr "Сертификаты"
+
+msgid "Ma'lumotnoma Tartib Raqami"
+msgstr "Номер справки"
+
+msgid "Ma'lumotnoma Tartib Raqamlari"
+msgstr "Номера справок"
+
+msgid "Yil (Masalan: 2026)"
+msgstr "Год (Например: 2026)"
+
+msgid "Yil"
+msgstr "Год"
+
+msgid "Oxirgi berilgan ma'lumotnoma raqami"
+msgstr "Последний выданный номер справки"
+
+msgid "Oxirgi raqam"
+msgstr "Последний номер"
+
+# Kasallik Varaqasi (Sick Leave)
+
+# Sick Leave
