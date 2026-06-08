@@ -323,13 +323,13 @@ msgid "Mutual Lesson Observation Journal"
 msgstr "O'zaro Dars Kuzatuvi Jurnali"
 
 msgid "Lesson Observations"
-msgstr ""
+msgstr "Dars Kuzatuvlari"
 
 msgid " Enter your password"
-msgstr ""
+msgstr " Parolingizni kiriting"
 
 msgid " Enter your username"
-msgstr ""
+msgstr " Foydalanuvchi nomingizni kiriting"
 
 msgid "No observations found."
 msgstr "Kuzatuvlar topilmadi."
@@ -407,7 +407,7 @@ msgid "Task Details"
 msgstr "Vazifa Tafsilotlari"
 
 msgid "New Lesson Observation"
-msgstr ""
+msgstr "Yangi Dars Kuzatuvi"
 
 msgid "Created By"
 msgstr "Yaratdi"
@@ -422,7 +422,7 @@ msgid "Assignees"
 msgstr "Mas'ullar"
 
 msgid "No deadline"
-msgstr ""
+msgstr "Muddat yo'q"
 
 msgid "Edit Task"
 msgstr "Vazifani Tahrirlash"
@@ -440,7 +440,7 @@ msgid "Low Priority"
 msgstr "Past Muhimlik"
 
 msgid "Upload"
-msgstr ""
+msgstr "Yuklash"
 
 msgid "All Observations"
 msgstr "Barcha Kuzatuvlar"
