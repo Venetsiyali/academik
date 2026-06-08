@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -104,13 +105,19 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': os.getenv('SQL_ENGINE', 'django.db.backends.sqlite3'),
-        'NAME': os.getenv('SQL_DATABASE', BASE_DIR / 'db.sqlite3'),
+        'NAME': os.getenv('SQL_DATABASE', str(BASE_DIR / 'db.sqlite3')),
         'USER': os.getenv('SQL_USER', ''),
         'PASSWORD': os.getenv('SQL_PASSWORD', ''),
         'HOST': os.getenv('SQL_HOST', ''),
         'PORT': os.getenv('SQL_PORT', ''),
     }
 }
+
+if os.getenv('DATABASE_URL'):
+    DATABASES['default'] = dj_database_url.parse(os.getenv('DATABASE_URL'))
+    
+if os.getenv('POSTGRES_URL'):
+    DATABASES['default'] = dj_database_url.parse(os.getenv('POSTGRES_URL'))
 
 AUTH_USER_MODEL = 'users.User'
 
