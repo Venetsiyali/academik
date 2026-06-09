@@ -105,3 +105,16 @@ def dashboard_chart_data(request):
         }
     }
     return JsonResponse(data)
+
+def serve_db_file(request, name):
+    from core.models import DBFile
+    from django.http import HttpResponse, Http404
+    
+    try:
+        db_file = DBFile.objects.get(file_name=name)
+        response = HttpResponse(db_file.content, content_type=db_file.content_type)
+        # We don't force download, so images can be shown in browser
+        response['Content-Disposition'] = f'inline; filename="{db_file.file_name.split("/")[-1]}"'
+        return response
+    except DBFile.DoesNotExist:
+        raise Http404("Fayl topilmadi")

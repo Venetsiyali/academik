@@ -29,3 +29,17 @@ class Notification(UUIDModel):
 
     def __str__(self):
         return f"Notification for {self.recipient}: {self.message[:20]}"
+
+class DBFile(UUIDModel):
+    """
+    Stores uploaded files (images, documents) directly in the database 
+    to bypass Vercel's read-only filesystem.
+    """
+    file_name = models.CharField(max_length=500, unique=True, db_index=True)
+    content = models.BinaryField()
+    content_type = models.CharField(max_length=255, blank=True)
+    size = models.PositiveIntegerField(default=0)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.file_name

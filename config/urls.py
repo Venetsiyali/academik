@@ -21,7 +21,7 @@ from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
 )
-from core.views import dashboard_view, dashboard_chart_data, mark_notification_read
+from core.views import dashboard_view, dashboard_chart_data, mark_notification_read, serve_db_file
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
@@ -39,6 +39,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('documents/', include('documents.urls')),
     path('i18n/', include('django.conf.urls.i18n')),
+    path('media-db/<path:name>', serve_db_file, name='serve_db_file'),
 ]
 
 from django.conf import settings
