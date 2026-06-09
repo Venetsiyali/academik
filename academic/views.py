@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from django.views.generic import ListView, CreateView, DetailView
+from django.views.generic import ListView, CreateView, DetailView, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.urls import reverse_lazy
@@ -160,3 +160,28 @@ class ResourceCreateView(LoginRequiredMixin, CreateView):
     def form_valid(self, form):
         form.instance.uploaded_by = self.request.user
         return super().form_valid(form)
+
+# --- SUBJECT CRUD VIEWS ---
+
+class SubjectListView(LoginRequiredMixin, ListView):
+    model = Subject
+    template_name = 'academic/subject_list.html'
+    context_object_name = 'subjects'
+    ordering = ['name']
+
+class SubjectCreateView(LoginRequiredMixin, CreateView):
+    model = Subject
+    fields = ['name']
+    template_name = 'academic/subject_form.html'
+    success_url = reverse_lazy('subject_list')
+
+class SubjectUpdateView(LoginRequiredMixin, UpdateView):
+    model = Subject
+    fields = ['name']
+    template_name = 'academic/subject_form.html'
+    success_url = reverse_lazy('subject_list')
+
+class SubjectDeleteView(LoginRequiredMixin, DeleteView):
+    model = Subject
+    template_name = 'academic/subject_confirm_delete.html'
+    success_url = reverse_lazy('subject_list')

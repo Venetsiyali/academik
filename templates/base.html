@@ -176,8 +176,8 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'admin:academic_subject_changelist' %}" target="_blank"
-                        class="nav-link">
+                    <a href="{% url 'subject_list' %}"
+                        class="nav-link {% if 'subjects' in request.path %}active{% endif %}">
                         <i class="bi bi-book-fill"></i>
                         {% trans "Fanlar" %}
                     </a>
