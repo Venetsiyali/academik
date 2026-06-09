@@ -8,7 +8,7 @@ class Order(UUIDModel):
     """
     title = models.CharField(max_length=255, verbose_name="Buyruq mavzusi")
     order_number = models.CharField(max_length=50, unique=True, verbose_name="Buyruq raqami")
-    file = models.FileField(upload_to='orders/', verbose_name="Buyruq fayli (PDF/Word)")
+    file = models.FileField(upload_to='orders/', max_length=500, verbose_name="Buyruq fayli (PDF/Word)")
     date_signed = models.DateField(verbose_name="Imzolangan sana")
     created_at = models.DateTimeField(auto_now_add=True)
     
@@ -41,7 +41,7 @@ class Report(UUIDModel):
     teacher = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='reports')
     title = models.CharField(max_length=255, verbose_name="Hisobot nomi")
     report_type = models.CharField(max_length=20, choices=REPORT_TYPES, default='QUARTERLY')
-    file = models.FileField(upload_to='reports/', verbose_name="Hisobot fayli")
+    file = models.FileField(upload_to='reports/', max_length=500, verbose_name="Hisobot fayli")
     
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='SUBMITTED')
     admin_comment = models.TextField(blank=True, null=True, verbose_name="Admin izohi (Rad etish sababi)")

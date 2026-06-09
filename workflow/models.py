@@ -61,7 +61,7 @@ class TaskDependency(UUIDModel):
 
 class TaskAttachment(UUIDModel):
     task = models.ForeignKey(Task, on_delete=models.CASCADE, related_name='attachments')
-    file = models.FileField(upload_to='task_attachments/')
+    file = models.FileField(upload_to='task_attachments/', max_length=500)
     uploaded_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

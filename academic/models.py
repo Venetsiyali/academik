@@ -65,7 +65,7 @@ class ObservationScore(UUIDModel):
 class EducationalResource(UUIDModel):
     title = models.CharField(max_length=255)
     description = models.TextField(blank=True)
-    file = models.FileField(upload_to='resources/')
+    file = models.FileField(upload_to='resources/', max_length=500)
     uploaded_by = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL, null=True)
     version = models.PositiveIntegerField(default=1)
     

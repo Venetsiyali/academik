@@ -13,7 +13,7 @@ class EmployeeProfile(UUIDModel):
     qualification_category = models.CharField(max_length=100, blank=True, null=True, verbose_name=_("Malaka toifasi / Aniq vazifasi"))
     
     # New fields for profile polish
-    avatar = models.ImageField(upload_to='avatars/', default='avatars/default.png', blank=True, verbose_name=_("Qiyofacha (Avatar)"))
+    avatar = models.ImageField(upload_to='avatars/', default='avatars/default.png', blank=True, max_length=500, verbose_name=_("Qiyofacha (Avatar)"))
     bio = models.TextField(max_length=500, blank=True, verbose_name=_("Tarjimayi hol (Bio)"))
     phone_number = models.CharField(max_length=20, blank=True, verbose_name=_("Telefon raqami"))
     address = models.CharField(max_length=255, blank=True, verbose_name=_("Manzil"))
@@ -46,7 +46,7 @@ class KPIRecord(UUIDModel):
     indicator = models.ForeignKey(KPIIndicator, on_delete=models.CASCADE, related_name='records', verbose_name=_("Indikator"))
     date_achieved = models.DateField(verbose_name=_("Erishilgan sana"))
     score_obtained = models.DecimalField(max_digits=5, decimal_places=2, verbose_name=_("Olingan ball"))
-    proof_document = models.FileField(upload_to='kpi_proofs/', blank=True, null=True, verbose_name=_("Isbotlovchi hujjat"))
+    proof_document = models.FileField(upload_to='kpi_proofs/', blank=True, null=True, max_length=500, verbose_name=_("Isbotlovchi hujjat"))
     verified = models.BooleanField(default=False, verbose_name=_("Tasdiqlangan"))
 
     class Meta:
@@ -66,7 +66,7 @@ class Certificate(UUIDModel):
     issuer = models.CharField(max_length=255, blank=True, verbose_name="Beruvchi tashkilot", help_text="Masalan: British Council")
     date_issued = models.DateField(verbose_name="Berilgan sana")
     expiry_date = models.DateField(null=True, blank=True, verbose_name="Amal qilish muddati")
-    file = models.FileField(upload_to='certificates/', blank=True, null=True, verbose_name="Sertifikat fayli (PDF/JPG)")
+    file = models.FileField(upload_to='certificates/', blank=True, null=True, max_length=500, verbose_name="Sertifikat fayli (PDF/JPG)")
     
     created_at = models.DateTimeField(auto_now_add=True)
     
